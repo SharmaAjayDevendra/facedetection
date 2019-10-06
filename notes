@@ -1,0 +1,30 @@
+Face Detection:
+// Landmarks
+face.getLandmark(FirebaseVisionFaceLandmark.LEFT_EYE)
+face.getLandmark(FirebaseVisionFaceLandmark.RIGHT_EYE)
+face.getLandmark(FirebaseVisionFaceLandmark.NOSE_BASE)
+face.getLandmark(FirebaseVisionFaceLandmark.LEFT_EAR)
+face.getLandmark(FirebaseVisionFaceLandmark.RIGHT_EAR)
+face.getLandmark(FirebaseVisionFaceLandmark.MOUTH_LEFT)
+face.getLandmark(FirebaseVisionFaceLandmark.MOUTH_BOTTOM)
+face.getLandmark(FirebaseVisionFaceLandmark.MOUTH_RIGHT)
+
+// Classification
+face.getSmilingProbability()
+face.getLeftEyeOpenProbability()
+face.getRightEyeOpenProbability()
+	
+// Contours
+face.getContour(FirebaseVisionFaceContour.FACE).points
+face.getContour(FirebaseVisionFaceContour.LEFT_EYEBROW_TOP).points
+face.getContour(FirebaseVisionFaceContour.LEFT_EYEBROW_BOTTOM).points
+face.getContour(FirebaseVisionFaceContour.RIGHT_EYEBROW_TOP).points
+face.getContour(FirebaseVisionFaceContour.RIGHT_EYEBROW_BOTTOM).points
+face.getContour(FirebaseVisionFaceContour.LEFT_EYE).points
+face.getContour(FirebaseVisionFaceContour.RIGHT_EYE).points
+face.getContour(FirebaseVisionFaceContour.UPPER_LIP_TOP).points
+face.getContour(FirebaseVisionFaceContour.UPPER_LIP_BOTTOM).points
+face.getContour(FirebaseVisionFaceContour.LOWER_LIP_TOP).points
+face.getContour(FirebaseVisionFaceContour.LOWER_LIP_BOTTOM).points
+face.getContour(FirebaseVisionFaceContour.NOSE_BRIDGE).points
+face.getContour(FirebaseVisionFaceContour.NOSE_BOTTOM).points
