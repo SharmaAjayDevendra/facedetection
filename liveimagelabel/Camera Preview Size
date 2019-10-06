@@ -1,0 +1,4 @@
+List<Camera.Size> supportedPictureSizes = parameters.getSupportedPictureSizes();
+for(int i=0; i<supportedPictureSizes.size(); i++){
+    Log.i("Preview: ", supportedPictureSizes.get(i).width+ " X "+supportedPictureSizes.get(i).height);
+}
